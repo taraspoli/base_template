@@ -16,14 +16,12 @@
   ],
   "devDependencies": {
     "browser-sync": "^2.26.7",
-    "del": "^3.0.0",
-    "dense": "0.0.1",
     "gulp": "^4.0.1",
     "gulp-autoprefixer": "^6.0.0",
     "gulp-cache": "^1.1.2",
     "gulp-clean-css": "^4.0.0",
     "gulp-concat": "^2.6.1",
-    "gulp-imagemin": "^4.1.0",
+    "gulp-imagemin": "^6.0.0",
     "gulp-plumber": "^1.2.1",
     "gulp-rename": "^1.4.0",
     "gulp-rework": "^4.0.0",
@@ -33,9 +31,10 @@
     "gulp-sourcemaps": "^2.6.5",
     "gulp-uglify": "^3.0.1",
     "imagemin-jpeg-recompress": "^6.0.0",
-    "imagemin-pngquant": "^5.0.1",
-    "jquery": "^3.3.1",
+    "imagemin-pngquant": "^8.0.0",
     "rework-plugin-at2x": "^1.0.2"
   },
-  "dependencies": {}
+  "dependencies": {
+    "dense": "0.0.1"
+  }
 }
